@@ -22,6 +22,7 @@
 		664DA7D5193F17EA002285CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664DA7B4193F17EA002285CA /* UIKit.framework */; };
 		664DA7DD193F17EA002285CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664DA7DB193F17EA002285CA /* InfoPlist.strings */; };
 		664DA7DF193F17EA002285CA /* DRSegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664DA7DE193F17EA002285CA /* DRSegmentControlTests.m */; };
+		664DA7EA193F187F002285CA /* DRSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 664DA7E9193F187F002285CA /* DRSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		664DA7DA193F17EA002285CA /* DRSegmentControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRSegmentControlTests-Info.plist"; sourceTree = "<group>"; };
 		664DA7DC193F17EA002285CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		664DA7DE193F17EA002285CA /* DRSegmentControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSegmentControlTests.m; sourceTree = "<group>"; };
+		664DA7E8193F187F002285CA /* DRSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSegmentControl.h; sourceTree = "<group>"; };
+		664DA7E9193F187F002285CA /* DRSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSegmentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				664DA7C9193F17EA002285CA /* ViewController.m */,
 				664DA7CB193F17EA002285CA /* Images.xcassets */,
 				664DA7B7193F17EA002285CA /* Supporting Files */,
+				664DA7E8193F187F002285CA /* DRSegmentControl.h */,
+				664DA7E9193F187F002285CA /* DRSegmentControl.m */,
 			);
 			path = DRSegmentControl;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				664DA7CA193F17EA002285CA /* ViewController.m in Sources */,
 				664DA7C1193F17EA002285CA /* AppDelegate.m in Sources */,
 				664DA7BD193F17EA002285CA /* main.m in Sources */,
+				664DA7EA193F187F002285CA /* DRSegmentControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
